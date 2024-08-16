@@ -1,2 +1,3 @@
 # PERSON-AGE-CALCULATOR-
-A simple means to calculate age of a person  -using HTML5, CSS3, Vanilla JavaScript
+Prompts user to enter DOB: in DD-MM-YYYY format 
+returns Current Age of the person
