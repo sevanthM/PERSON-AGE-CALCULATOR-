@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="display"></h1>
+
+    <script>
+
+        let display = document.getElementById("display")
+
+        let calc = new Date()
+
+        currentYear = calc.getFullYear() 
+
+        let age = prompt('Enter DOB in DD-MM-YYYY:')
+
+        let ageYear = age.slice(6,age.length) 
+
+        ageShow = currentYear - ageYear
+
+        display.innerHTML=`Current Age:${ageShow}`
+
+    </script>
+</body>
+</html>
+<!-- extract portion of string use slice -->
